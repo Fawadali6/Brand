@@ -181,32 +181,36 @@ bulan_ttl = {"01": "Januari", "02": "Februari", "03": "Maret", "04": "April", "0
 
 ## logo 
 logo="""\033[1;37m
- _____ ____  _     ____  ____ 
-/    //  _ \/ \ |\/  _ \/  _ \
-|  __\| / \|| | //| / \|| | \|
-| |   | |-||| \// | |-||| |_/|
-\_/   \_/ \|\__/  \_/ \|\____/
+       ###       ##    ## #### ##    ##  ######
+      ## ##      ##   ##   ##  ###   ## ##    ##
+     ##   ##     ##  ##    ##  ####  ## ##
+    ##     ##    #####     ##  ## ## ## ##   ####
+    #########    ##  ##    ##  ##  #### ##    ##
+    ##     ##    ##   ##   ##  ##   ### ##    ##
+    ##     ##    ##    ## #### ##    ##  ######
  [*]=============================================
-    Author   : fawad KING
+    Author   : IMTIAZ AKING
     Facebook : https://facebook.com/Imtiaz.Aking
-    Team     : shehriyar+fawad
-    Connect  : 0344444444
+    Team     : Somi + Zahid
+    Connect  : 03237528063
  [*]=============================================
    \033[1;31m  Use (Flight) Airplane Mod For Speed Up \033[1;37m
  [*]============================================="""
 wwn = pilih([U, C, B, Q])
 
 loag="""\033[1;37m
- _____ ____  _     ____  ____ 
-/    //  _ \/ \ |\/  _ \/  _ \
-|  __\| / \|| | //| / \|| | \|
-| |   | |-||| \// | |-||| |_/|
-\_/   \_/ \|\__/  \_/ \|\____/
+       ###       ##    ## #### ##    ##  ######
+      ## ##      ##   ##   ##  ###   ## ##    ##
+     ##   ##     ##  ##    ##  ####  ## ##
+    ##     ##    #####     ##  ## ## ## ##   ####
+    #########    ##  ##    ##  ##  #### ##    ##
+    ##     ##    ##   ##   ##  ##   ### ##    ##
+    ##     ##    ##    ## #### ##    ##  ######
 [*]=============================================
-    Author   : fawad KING
+    Author   : IMTIAZ AKING
     Facebook : https://facebook.com/Imtiaz.Aking
-    Team     : shehriyar+fawad
-    Connect  : 0344444444
+    Team     : Somi + Zahid
+    Connect  : 03237528063
 [*]=============================================
    \033[1;31m  Use (Flight) Airplane Mod For Speed Up \033[1;37m
 [*]============================================="""
@@ -275,7 +279,7 @@ class menu:
 		jenis_hp = name_hp.replace("product: ", "")
 		jenis_os = os_.replace("os: ", "")
 		jenis_ly = ly.replace("layout: ", "")
-		print ("[✓] Powered  by fawad KING")
+		print ("[✓] Powered  by AKING")
 		print ("[✓] Premium Cloning tool")
 		print(f"\x1b[1;97m[*]=============================================")
 		print ("")
@@ -350,13 +354,13 @@ class msort:
 		link1 = input ("[?] Link 2 : ")
 		os.system('cat "'+file+'" | grep "'+link+'" > /sdcard/1.txt')
 		os.system('cat "'+file+'" | grep "'+link1+'" >> /sdcard/1.txt')
-		os.system('sort -r /sdcard/1.txt | uniq > /sdcard/Xking.txt')
+		os.system('sort -r /sdcard/1.txt | uniq > /sdcard/XAking.txt')
 		os.system('rm -rf /sdcard/1.txt')
 		os.system('rm -rf /sdcard/allinone.txt.txt')
 		os.system('rm -rf /sdcard/akingidz.txt')
 		print(47*'\033[1;97m-\033[0;0m')
 		print ("\n[✓] Dumping and Sliced successfully ..")
-		print ("[✓] Your file path : /storage/emulated/0/Xking.txt")
+		print ("[✓] Your file path : /storage/emulated/0/XAking.txt")
 		print(47*'\033[1;97m-\033[0;0m')
 		input ("\n[?] Retrun back menu")
 		os.system("python Brand.py")
@@ -369,13 +373,13 @@ class sort:
 		link1 = input ("[?] Link 2 : ")
 		os.system('cat /sdcard/allinone.txt | grep "'+link+'" > /sdcard/1.txt')
 		os.system('cat /sdcard/allinone.txt | grep "'+link1+'" >> /sdcard/1.txt')
-		os.system('sort -r /sdcard/1.txt | uniq > /sdcard/Xking.txt')
+		os.system('sort -r /sdcard/1.txt | uniq > /sdcard/XAking.txt')
 		os.system('rm -rf /sdcard/1.txt')
 		os.system('rm -rf /sdcard/allinone.txt.txt')
 		os.system('rm -rf /sdcard/akingidz.txt')
 		print(47*'\033[1;97m-\033[0;0m')
 		print ("\n[✓] Dumping and Sliced successfully ..")
-		print ("[✓] Your file path : /storage/emulated/0/Xking.txt")
+		print ("[✓] Your file path : /storage/emulated/0/XAking.txt")
 		print(47*'\033[1;97m-\033[0;0m')
 		input ("\n[?] Retrun back menu")
 		os.system("python Brand.py")
